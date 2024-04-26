@@ -6,16 +6,19 @@ A suite of mathematica notebooks generating and utilizing metric perturbations a
 ## Notebook Descriptions
 
 **Metric Perturbation.nb** 
+
 This notebook generates metric perturbations in Boyer-Lindquist (BL), ingoing, and outgoing coordinates in both the ingoing radiation gauge (IRG) and the outgoing radiation gauge (ORG) for each coordinate system. The end results are written to files located in the directory `metric-perturbations/`.
 
 _______
 **Einstein Checks.nb** 
+
 This notebook: 
 1. Computes the linearized Einstein tensor in a Kerr background.
 2. Imports the results of `Metric Perturbation.nb` and verifies that the generated metric perturbations solve the linearized Einstein vacuum equations.
 
 _______
 **Example Usage.nb** 
+
 This notebook showcases how one can import the results of `Metric Perturbation.nb` to be utilized for symbolic or numeric computations. In particular, it generates a numerical plot of a metric perturbation component.
 
 ______________
