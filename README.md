@@ -7,16 +7,16 @@ A suite of Mathematica notebooks containing analytic expressions for the metric 
 
 **MetricPerturbations.nb** 
 
-This notebook provides explicit analytic expressions for the metric perturbations of a Kerr black hole. The components are given in Boyer-Lindquist (BL), ingoing, and outgoing coordinates in both the ingoing radiation gauge (IRG) and the outgoing radiation gauge (ORG) for each coordinate system. These expressions are stored in files located in the directory `metric-perturbations/`.
+This notebook provides analytic expressions for the metric perturbations of a Kerr black hole. The metric components are given in Boyer-Lindquist, ingoing, and outgoing coordinates and in two gauges: ingoing radiation gauge (IRG) and outgoing radiation gauge (ORG). These explicit expressions are saved in the directory `metric-perturbations/`.
 
 _______
 **EinsteinFieldEquations.nb** 
 
 This notebook: 
-1. Computes the linearized Einstein tensor associated with an arbitrary perturbation of the Kerr background.
-2. Imports the components of the metric perturbations from `MetricPerturbations.nb` and verifies that they solve the linearized Einstein vacuum equations.
+1. Computes the linearized Einstein tensor associated with an arbitrary perturbation of the Kerr background and saves its components in the directory `linearized-Einstein-tensor/`. This step takes about ~20 minutes of runtime on a laptop.
+2. Imports the components of the metric perturbations from `MetricPerturbations.nb` and verifies that they solve the linearized Einstein vacuum equations. Checking each component takes about ~2 minutes of runtime on a laptop.
 
-This check is carried out for both radiation gauges (IRG and ORG) but only in Boyer-Lindquist coordinates. A simple coordinate transformation is then sufficient to establish correctness of the components in ingoing and outgoing coordinates.
+This check is carried out for both radiation gauges (IRG and ORG) but only in Boyer-Lindquist coordinates.  A simple coordinate transformation is then sufficient to establish correctness of the components in ingoing and outgoing coordinates.
 _______
 **ExampleUsage.nb** 
 
