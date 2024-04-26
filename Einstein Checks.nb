@@ -3961,7 +3961,7 @@ Cell[BoxData["269.712806`8.88244656079833"], "Output",
 },
 Evaluator->"Extra Kernel 4",
 WindowSize->{1161, 1012},
-WindowMargins->{{-1202, Automatic}, {Automatic, -13}},
+WindowMargins->{{-1186, Automatic}, {Automatic, -13}},
 FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (December 2, 2021)",
 StyleDefinitions->"ReverseColor.nb",
 ExpressionUUID->"ee2c1813-3e53-4c3d-a522-0a00d203b51d"
