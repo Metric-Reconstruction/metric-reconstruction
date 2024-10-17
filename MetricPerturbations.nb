@@ -10151,7 +10151,7 @@ the \[OpenCurlyDoubleQuote]compact\[CloseCurlyDoubleQuote] forms of  ",
     "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
   "cef4abc7-8a16-45ad-8213-5ceef601e54f"],
  ", which will be used for checking the Einstein equations in the \
-\[OpenCurlyDoubleQuote]Einstein Checks\[CloseCurlyDoubleQuote] notebook."
+EinsteinFieldEquations notebook."
 }], "Text",
  CellChangeTimes->{
   3.9230599652321653`*^9, {3.923060023928752*^9, 3.92306004562849*^9}, 
