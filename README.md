@@ -13,8 +13,8 @@ _______
 **EinsteinFieldEquations.nb** 
 
 This notebook: 
-1. Computes the linearized Einstein tensor associated with an arbitrary perturbation of the Kerr background and saves its components in the directory `linearized-Einstein-tensor/`. This step takes about ~20 minutes of runtime on a laptop.
-2. Imports the components of the metric perturbations from `MetricPerturbations.nb` and verifies that they solve the linearized Einstein vacuum equations. Checking each component takes about ~2 minutes of runtime on a laptop.
+1. Computes the linearized Einstein tensor associated with an arbitrary perturbation of the Kerr background and saves its components in the directory `linearized-Einstein-tensor/`. This step takes a few minutes of runtime on a laptop.
+2. Imports the components of the metric perturbations from `MetricPerturbations.nb` and verifies that they solve the linearized Einstein vacuum equations. 
 
 This check is carried out for both radiation gauges (IRG and ORG) but only in Boyer-Lindquist coordinates.  A simple coordinate transformation is then sufficient to establish correctness of the components in ingoing and outgoing coordinates.
 _______
@@ -23,5 +23,5 @@ _______
 This notebook showcases how the explicit expressions from `MetricPerturbations.nb` can be used for symbolic or numeric computations. As an example, we display plots of metric perturbation components.
 
 ______________
-R. Berens, T. Gravely, and A. Lupsasca, “Gravitational Waves on Kerr Black Holes I: Reconstruction of Linearized Metric Perturbations,” 2024. [arxiv:2403.20311](https://arxiv.org/abs/2403.20311)
+R. Berens, T. Gravely, and A. Lupsasca, “Gravitational Waves on Kerr Black Holes I: Reconstruction of Linearized Metric Perturbations,” 2024. [arXiv:2403.20311](https://arxiv.org/abs/2403.20311)
 ______________
